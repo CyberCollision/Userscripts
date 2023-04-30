@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name         9anime Watchlist Enhancer
-// @namespace    https://github.com/CyberCollision/Userscripts
-// @version      2.0
-// @description  This userscript enhances the appearance of the watchlist on 9anime
-// @match        https://9anime.*/user/watch-list
-// @author       CyberCollision
-// @grant        none
+// @name        9anime Watchlist Enhancer
+// @namespace   https://github.com/CyberCollision/Userscripts
+// @match       https://9anime.*/user/watch-list
+// @grant       none
+// @version     2.0
+// @author      CyberCollision
+// @description This userscript enhances the appearance of the watchlist on 9anime
 // ==/UserScript==
 
 (function() {
