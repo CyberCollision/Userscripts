@@ -1,7 +1,10 @@
 // ==UserScript==
 // @name        9anime Watchlist Enhancer
 // @namespace   https://github.com/CyberCollision/Userscripts
-// @match       https://9anime.*/user/watch-list
+// @match       https://9anime.to/user/watch-list
+// @match       https://9anime.pl/user/watch-list
+// @match       https://9anime.gs/user/watch-list
+// @match       https://9animehq.to/user/watch-list
 // @grant       none
 // @icon        https://www.google.com/s2/favicons?domain=https://9anime.me
 // @version     2.0.2
