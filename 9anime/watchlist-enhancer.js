@@ -6,6 +6,7 @@
 // @version     2.0
 // @author      CyberCollision
 // @description This userscript enhances the appearance of the watchlist on 9anime
+// @license     MIT
 // ==/UserScript==
 
 (function() {
