@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        YouTube Shorts Hider
-// @namespace   Violentmonkey Scripts
+// @namespace   https://github.com/CyberCollision/Userscripts
 // @match       *://*.youtube.com/feed/subscriptions
 // @grant       none
 // @icon        https://www.google.com/s2/favicons?domain=https://www.youtube.com
