@@ -1,16 +1,16 @@
 // ==UserScript==
-// @name        Youtube Bigger Grid Layout
-// @namespace   https://github.com/CyberCollision/Userscripts
-// @match       *://*youtube.com/*
-// @grant       none
-// @icon        https://www.google.com/s2/favicons?domain=https://www.youtube.com
-// @version     1.0.1
-// @author      CyberCollision
-// @description Increases the size of the grid layout
-// @license     MIT
+// @name         Youtube Bigger Grid Layout
+// @namespace    https://github.com/CyberCollision/Userscripts
+// @match        *://*youtube.com/*
+// @grant        none
+// @icon         https://www.google.com/s2/favicons?domain=https://www.youtube.com
+// @version      1.0.1
+// @author       CyberCollision
+// @description  Increases the size of the grid layout
+// @license      MIT
 // ==/UserScript==
 
-(function () {
+(function() {
     'use strict';
 
     var styles = `
@@ -37,12 +37,12 @@
         }
 
         replaceMathMin() {
-            var origMathMin = Math.min;
-            Math.min = function () {
+            var originalMathMin = Math.min;
+            Math.min = function() {
                 if (/calcElementsPerRow/img.test(Error().stack || '')) {
-                    return origMathMin.apply(Math, arguments) + 1;
+                    return originalMathMin.apply(Math, arguments) + 1;
                 }
-                return origMathMin.apply(Math, arguments);
+                return originalMathMin.apply(Math, arguments);
             };
         }
 
