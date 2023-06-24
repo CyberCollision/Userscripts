@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        9anime Watchlist Enhancer
+// @name        Watchlist Enhancer
 // @namespace   https://github.com/CyberCollision/Userscripts
 // @match       https://9anime.to/user/watch-list
 // @match       https://9anime.pl/user/watch-list
