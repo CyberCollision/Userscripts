@@ -6,7 +6,7 @@
 // @match       https://9anime.gs/user/watch-list
 // @match       https://9anime.to/user/watch-list
 // @icon        https://www.google.com/s2/favicons?domain=https://9anime.me
-// @version     2.0.2
+// @version     2.0.3
 // @author      CyberCollision
 // @description This userscript enhances the appearance of the watchlist on 9anime
 // @license     MIT
