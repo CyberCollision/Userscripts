@@ -4,8 +4,7 @@
 // @match       https://9anime.to/user/watch-list
 // @match       https://9anime.pl/user/watch-list
 // @match       https://9anime.gs/user/watch-list
-// @match       https://9animehq.to/user/watch-list
-// @grant       none
+// @match       https://9anime.to/user/watch-list
 // @icon        https://www.google.com/s2/favicons?domain=https://9anime.me
 // @version     2.0.2
 // @author      CyberCollision
@@ -21,7 +20,6 @@
 
     // Loop through each item
     items.forEach(item => {
-
         // Find the poster image inside the item
         const poster = item.querySelector('.poster');
 
@@ -34,8 +32,8 @@
         // Change the font size of the title link to 1.3rem
         titleLink.style.fontSize = '1.3rem';
 
-        // Disable the 'display: webkit box;' property
-        titleLink.style.display = 'initial';
+        // Reset the display property of the title link
+        titleLink.style.display = '';
 
         // Find the detail section inside the item
         const detail = item.querySelector('.info .detail');
