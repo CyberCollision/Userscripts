@@ -33,7 +33,7 @@
         titleLink.style.fontSize = '1.3rem';
 
         // Reset the display property of the title link
-        titleLink.style.display = '';
+        titleLink.style.display = 'initial';
 
         // Find the detail section inside the item
         const detail = item.querySelector('.info .detail');
