@@ -17,7 +17,7 @@
 
   // Settings
   const imageSize = '180px'; // Set the desired image size here
-  const paddingValue = '0 10px 160px'; // Set the desired padding value here
+  const paddingValue = '0 10px 140px'; // Set the desired padding value here
 
   const items = document.querySelectorAll('.watchlist.scaff.items .item');
 
